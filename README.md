@@ -61,8 +61,7 @@ The goal of this project was to build something that:
   "retry_after_seconds": 47
 }
 ```
-Response headers also include:
-
+**Response headers**
 - X-RateLimit-Limit
 - X-RateLimit-Remaining
 - Retry-After
@@ -88,7 +87,6 @@ Single user: `GET /stats?user_id=alice`
 ### macOS / Linux
 
 ```bash
-cd goLang
 
 # Run (default port 8080)
 go run .
@@ -127,7 +125,6 @@ curl -s "http://localhost:8080/stats?user_id=alice"
 ### Windows (PowerShell)
 
 ```powershell
-cd goLang
 
 # Run (default port 8080)
 go run .
