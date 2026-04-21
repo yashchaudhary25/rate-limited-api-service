@@ -31,6 +31,8 @@ The goal of this project was to build something that:
 │   └── limiter_test.go
 ├── go.mod
 └── README.md
+```
+
 ---
 
 ### POST /request
